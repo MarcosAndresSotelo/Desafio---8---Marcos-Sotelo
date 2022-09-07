@@ -2,10 +2,16 @@
 @media screen and (min-width: 320px) and (max-width: 720px) {
     .textoIndex {
         text-align: center;
+        font-size: 3rem;
     }
 
     .textoIndexProd {
         text-align: center;
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 2rem;
     }
 
     .footer {
@@ -43,15 +49,13 @@
     }
 }
 
-/*vista mobile liveng comedor*/
+/*vista mobile living comedor*/
 @media screen and (min-width: 320px) and (max-width: 720px) {
     .footer {
         flex-direction: column;
         align-items: center;
     }
-
 }
-/*fin vista mobile living comedor/*
 
 /*vista tablet living comedor*/
 @media screen and (min-width: 720px) and (max-width: 1024px) {
@@ -67,7 +71,6 @@
         flex-direction: column;
         align-items: center;
     }
-
 }
 
 /*vista tablet dormitorio y baño*/
